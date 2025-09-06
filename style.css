@@ -40,6 +40,12 @@ nav a {
 	color: #000
 }
 
+.carousel-item img {
+  aspect-ratio: 1200 / 555; 
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .carousel-inner img{
 	width: 100%;

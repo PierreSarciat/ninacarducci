@@ -41,7 +41,10 @@ nav a {
 }
 
 
-
+.carousel-inner img{
+	width: 100%;
+	height: auto;
+}
 
 .social-link img {
 	width: 20px;

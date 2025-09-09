@@ -51,7 +51,11 @@ nav a {
 
 .carousel-item img {
 	/*width: 100%;*/
-	height: auto;
+	/*height: auto;*/
+	 aspect-ratio: 1920 / 888;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .social-link img {

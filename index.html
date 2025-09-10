@@ -17,14 +17,12 @@
   ./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-650.webp 650w
 " imagesizes="100vw">
 
-<!--preload de la photo de Nina-->
-<link 
-  rel="preload"  as="image"   href="./assets/images/nina-500.webp"   imagesrcset="
+	<!--preload de la photo de Nina-->
+	<link rel="preload" as="image" href="./assets/images/nina-500.webp" imagesrcset="
     ./assets/images/nina-500.webp 500w,
     ./assets/images/nina-400.webp 400w,
     ./assets/images/nina-320.webp 320w
-  "
-  imagesizes="(max-width:650px) 320px, (max-width:1000px) 400px, 500px">
+  " imagesizes="(max-width:650px) 320px, (max-width:1000px) 400px, 500px">
 
 	<!-- bootstrap non-bloquant -->
 	<link rel="preload" href="assets/bootstrap/bootstrap.css" as="style"
@@ -33,7 +31,7 @@
 		<link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
 	</noscript>
 
-	
+
 
 
 
@@ -56,47 +54,55 @@
 			href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap">
 	</noscript>
 
-	<!-- Schema.org JSON-LD pour Nina Carducci Photographe -->
-<!-- Schema.org JSON-LD pour Nina Carducci Photographe -->
+	
+	<!-- JSON-LD Schema.org pour Nina Carducci Photographe -->
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "PhotographyBusiness",
-  "name": "Nina Carducci",
+  "name": "Nina Carducci Photographe",
   "image": "https://pierresarciat.github.io/ninacarducci/assets/images/nina-320.webp",
-  "description": "Photographe professionnelle spécialisée dans les portraits, événements et reportages à Bordeaux.",
-  "url": "https://pierresarciat.github.io/ninacarducci/",
-  "telephone": "+33 5 56 67 78 89",
+  "description": "Photographe professionnelle spécialisée dans les portraits, mariages et événements à Bordeaux.",
+  "url": "https://www.ninacarducci.fr",
+  "telephone": "+33 6 12 34 56 78",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "68 avenue Alsace-Lorraine",
+    "streetAddress": "3 rue des Jardins",
     "addressLocality": "Bordeaux",
     "addressRegion": "Nouvelle-Aquitaine",
-    "postalCode": "33200",
+    "postalCode": "33000",
     "addressCountry": "FR"
   },
   "sameAs": [
     "https://www.instagram.com/ninacarducci.photo/"
   ],
-  "areaServed": "Bordeaux et environs"
+  "areaServed": {
+    "@type": "City",
+    "name": "Bordeaux"
+  }
 }
 </script>
 
 
-<!-- Open Graph -->
-<meta property="og:title" content="Nina Carducci - Photographe professionnelle">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://pierresarciat.github.io/ninacarducci/">
-<meta property="og:image" content="https://pierresarciat.github.io/ninacarducci/assets/images/nina-320.webp">
-<meta property="og:description" content="Nina Carducci, photographe à Bordeaux. Portraits, mariages et événements professionnels.">
-<meta property="og:site_name" content="Nina Carducci Photographe">
 
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle">
-<meta name="twitter:description" content="Nina Carducci, photographe à Bordeaux. Portraits, mariages et événements professionnels.">
-<meta name="twitter:image" content="https://pierresarciat.github.io/ninacarducci/assets/images/nina-320.webp">
-<meta name="twitter:site" content="@ninacarducci">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://pierresarciat.github.io/ninacarducci/">
+	<meta property="og:image" content="https://pierresarciat.github.io/ninacarducci/assets/images/nina-320.webp">
+	<meta property="og:description"
+		content="Nina Carducci, photographe à Bordeaux. Portraits, mariages et événements professionnels.">
+	<meta property="og:site_name" content="Nina Carducci Photographe">
+
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle">
+	<meta name="twitter:description"
+		content="Nina Carducci, photographe à Bordeaux. Portraits, mariages et événements professionnels.">
+	<meta name="twitter:image" content="https://pierresarciat.github.io/ninacarducci/assets/images/nina-320.webp">
+	<meta name="twitter:site" content="@ninacarducci">
 
 </head>
 
@@ -113,7 +119,8 @@
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
 					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
-							target="_blank"><img src="assets/images/instagram.png" width="20" height="20" alt="logo instagram"></a></li>
+							target="_blank"><img src="assets/images/instagram.png" width="20" height="20"
+								alt="logo instagram"></a></li>
 				</ul>
 				<!--</div>-->
 		</div>
@@ -141,9 +148,8 @@
 					(max-width:1000px) 1000px,
 					(max-width:1180px) 1180px,
 					1920px
-					" 
-					fetchpriority="high"
-					class="d-block w-100" alt="homme en costume sombre sur passage piéton"><!--accessibilité et référencement-->
+					" fetchpriority="high" class="d-block w-100"
+						alt="homme en costume sombre sur passage piéton"><!--accessibilité et référencement-->
 				</div>
 				<div class="carousel-item">
 					<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1920.webp" srcset="
@@ -197,9 +203,7 @@
 					(max-width:650px) 320px,
 					(max-width:1000px) 400px,
 					500px,
-						" 
-						  fetchpriority="high"
-						  alt="portrait Nina Carducci">
+						" fetchpriority="high" alt="portrait Nina Carducci">
 				<!--accessibilité et référencement-->
 			</div>
 			<div id="about-me">
@@ -382,8 +386,7 @@
 					(max-width:650px) 320px,
 					(max-width:1000px) 400px,
 					500px,
-					"
-					alt="image d'appareil photo"><!--accessibilité et référencement-->
+					" alt="image d'appareil photo"><!--accessibilité et référencement-->
 			</div>
 		</div>
 		<!--</div>-->

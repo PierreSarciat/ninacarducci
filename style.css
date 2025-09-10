@@ -88,8 +88,8 @@ nav a {
 }
 
 .picture img {
-	width: 100%;
-	height: auto;
+	width: 500px;
+	height: 500px;
 }
 
 
@@ -325,6 +325,11 @@ input[type="submit"] {
 		width: 50%;
 	}
 
+	.picture img {
+	width: 400px;
+	height: 400px;
+}
+
 	.picture.left::before {
 		width: 100%;
 		height: 30%;
@@ -426,4 +431,9 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+
+	.picture img {
+	width: 320px;
+	height: 320px;
+}
 }

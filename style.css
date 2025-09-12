@@ -45,7 +45,7 @@ nav a {
 
 
 .carousel-item img {
-  aspect-ratio: 16 / 9;     /* même ratio que 1920x1080 */
+  aspect-ratio: 80/37;     /* même ratio que 1920x888 */
   width: 100%;
   height: auto;
   display: block;

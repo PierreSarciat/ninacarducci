@@ -42,21 +42,19 @@ nav a {
 	color: #000
 }
 
-/*.carousel-item img {
-	aspect-ratio: 1200 / 555;
-	width: 100%;
-	height: auto;
-	display: block;
-}*/
+
 
 .carousel-item img {
-	/*width: 100%;*/
-	/*height: auto;*/
-	 aspect-ratio: 1920 / 888;
+  aspect-ratio: 16 / 9;     /* même ratio que 1920x1080 */
   width: 100%;
   height: auto;
   display: block;
 }
+
+.carousel-item {
+  min-height: calc(100vw * 9 / 16); /* réserve la place dès le départ */
+}
+
 
 .social-link img {
 	width: 20px;

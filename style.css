@@ -45,14 +45,12 @@ nav a {
 
 
 .carousel-item img {
-  aspect-ratio: 80/37;     /* même ratio que 1920x888 */
-  width: 100%;
-  height: auto;
-  display: block;
+   height: auto;
+
 }
 
 .carousel-item {
-  min-height: calc(100vw * 9 / 16); /* réserve la place dès le départ */
+  min-height: calc(100vw * 37/80); 
 }
 
 

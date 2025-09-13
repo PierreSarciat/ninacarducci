@@ -46,12 +46,13 @@ nav a {
 
 .carousel-item img {
    height: auto;
-   width: 103% !important;
+   object-fit: cover;
 }
 
 .carousel-item {
-  min-height: calc(100vw * 37/80); 
+  aspect-ratio: 80 / 37; 
 }
+
 
 
 .social-link img {

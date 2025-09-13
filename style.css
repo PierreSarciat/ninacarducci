@@ -42,6 +42,24 @@ nav a {
 	color: #000
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+
+.carousel-inner {
+  min-height: calc(100vw * 37/80); // Assure que le carousel a une hauteur avant que les images se chargent
+}
 
 
 .carousel-item img {

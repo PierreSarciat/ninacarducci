@@ -46,7 +46,7 @@ nav a {
 
 .carousel-item img {
    height: auto;
-
+   width: 103% !important;
 }
 
 .carousel-item {

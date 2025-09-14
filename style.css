@@ -11,8 +11,6 @@ body {
 .top-header {
 	background-color: white;
 	position:sticky;
-	/*! position: fixed; */
-	/*même effet visuel+ width 100%*/
 	top: 0;
 	z-index: 1000;
 	display: flex;
@@ -119,10 +117,6 @@ nav a {
 .about-mePresentation {
 	width: 80%;
 	font-size: 14px;
-}
-
-#gallery {
-	/*	min-height: 100vh; */
 }
 
 .title {

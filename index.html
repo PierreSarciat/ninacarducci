@@ -9,37 +9,20 @@
 
 	<title>Nina Carducci - Photographe Bordeaux</title><!-- SEO -->
 
-	<!--preload de l' image rpincipale-->
-	<link rel="preload" 
-      as="image" 
-      href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920.webp">
+	<!--preload de l' image principale-->
+	<link rel="preload" as="image" href="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1920.webp">
 
 
 
 	<!--preload de la photo de Nina-->
-	<link rel="preload" 
-      as="image" 
-      href="./assets/images/nina-500.webp">
+	<link rel="preload" as="image" href="./assets/images/nina-500.webp">
 
-
-
-
-	<!-- bootstrap non-bloquant -->
-	<!--<link rel="preload" href="assets/bootstrap/bootstrap.css" as="style"
-		onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>-->
-		<link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
-	<!--</noscript>-->
-
-
-
-
-
+	<link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
+	
 	<!-- style.css non-bloquant -->
-	<!--<link rel="preload" href="style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-	<noscript>-->
-		<link rel="stylesheet" href="style.css">
-	<!--</noscript>-->
+	<link rel="preload" as="style" href="style.css">
+<link rel="stylesheet" href="style.css">
+
 
 	<!-- Google Fonts optimisés -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -123,11 +106,10 @@
 						target="_blank"><img src="assets/images/instagram.png" width="20" height="20"
 							alt="logo instagram"></a></li>
 			</ul>
-			<!--</div>-->
 		</nav>
 	</header>
 	<main>
-		<div id="header"><!--balise inutile-->
+		<div id="header">
 
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -198,9 +180,8 @@
 
 
 		<section id="about"><!--SEO et accessibilité-->
-			<!--<div id="about">-->
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" width="320" height="320" srcset="
+				<img src="./assets/images/nina-500.webp" width="320" height="320" srcset="
 					./assets/images/nina-500.webp 1920w,
 					./assets/images/nina-400.webp 1000w,
 					./assets/images/nina-320.webp 650w
@@ -234,10 +215,8 @@
 					tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
 				</p>
 			</div>
-			<!--</div>-->
 		</section>
 		<section id="gallery"><!--SEO et accessibilité-->
-			<!--<div id="gallery">-->
 			<h2 class="title">Portfolio</h2>
 			<div class="container py-3">
 				<div class="gallery" style="display: none">
@@ -285,11 +264,9 @@
 						alt="femme riant devant un ordinateur portable"
 						src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp">
 					<!--accessibilité et référencement--><!--html5-->
-
 				</div>
 			</div>
 			<aside class="quote">
-				<!--<div class="quote">-->
 				<figure>
 					<blockquote>
 						<p class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
@@ -304,12 +281,9 @@
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
-				<!--</div>-->
 			</aside>
-			<!--</div>-->
 		</section>
 		<section id="services"><!--SEO et accessibilité-->
-			<!--<div id="services">-->
 			<h2 class="title">Mes services</h2>
 			<div class="container">
 				<div class="service">
@@ -351,10 +325,8 @@
 					</div>
 				</div>
 			</div>
-			<!--</div>-->
 		</section>
 		<aside class="quote"><!--SEO et accessibilité-->
-			<!--<div class="quote">-->
 			<figure>
 				<blockquote>
 					<p class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression,
@@ -363,11 +335,9 @@
 				</blockquote>
 				<figcaption class="quote__author">- Richard Avedon</figcaption>
 			</figure>
-			<!--</div>-->
 		</aside>
 	</main>
 	<footer id="contact"><!--SEO et accessibilité--><!--mettre une id pour style css-->
-		<!--<div id="contact">-->
 		<div class="container">
 			<div class="form-container">
 				<h2>Une question ? Une demande de devis ?</h2>
@@ -394,7 +364,6 @@
 					" alt="image d'appareil photo"><!--accessibilité et référencement-->
 			</div>
 		</div>
-		<!--</div>-->
 	</footer>
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"

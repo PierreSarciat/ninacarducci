@@ -42,7 +42,7 @@ nav a {
 
 
 .carousel-inner {
-  min-height: calc(100vw * 37/80); // Assure que le carousel a une hauteur avant que les images se chargent
+  min-height: calc(100vw * 37/80); /* Assure que le carousel a une hauteur avant que les images se chargent*/
 }
 
 
@@ -187,7 +187,10 @@ blockquote {
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
-
+    font-size: calc(1.375rem + 1.5vw);
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+	line-height: 1.2;
 }
 
 .quote__author {
